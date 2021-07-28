@@ -9,7 +9,7 @@
 * My Discord: Pastel#2032
 * Email: pastelrobotthrowaway@gmail.com (Don't worry this is **NOT** a throwaway email, it was what it was intended to be in the first place until I decided to turn it into a way to reach me)
 
-```
+```java
   public class PastelRobots extends AboutMe implements Youtuber, Coder {
 
 	@Override
@@ -26,16 +26,15 @@
 	public List<String> getWhatYouCanCallMe() {
 		return Arrays.asList("Pastel", "Aidan", "Robots", "Literally anything else!");
 	}
-
+   }
         public Me() {
-        super("Pastel", "Earth");
+        super("Pastel", "A human-being.");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
         this.addExperience("1 year Java", "4 years Python", "2 years Javascript");
-     }
    }
-   
-  @Override
+     
+        @Override
 	public void codingProgress() {
 		String[] learning = ["Experienced Server Plugins / PVP Clients / Java", "Discord Bots / Node.js", "Making fun little programs / Python"];
 		String[] tryingTo = ["Improve Pastel client". "Make good server plugins"];
