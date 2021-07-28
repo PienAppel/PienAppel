@@ -16,52 +16,58 @@
 	public String getIRLName() {
 		return "Aidan";
 	}
-  
-  	@Override
-	public String gamesIPlay() {
+	
+    @Override
+	public String getGamesIPlay() {
 		return "I like to play minecraft and fnf.";
 	}
-	
+
+    @Override
+	public String getHobbies() {
+		return "I like to code\nI like to play soccer\nI like to make videos :)";
+	}   
+
 	@Override
-	public List<String> getWhatYouCanCallMe() {
-		return Arrays.asList("Pastel", "Aidan", "Robots", "Literally anything else!");
+	public List<String> getNickNames() {
+		return Arrays.asList("Pastel", "Aidan", "Robots", "PastelRobots", "Literally anything else!");
 	}
-   }
-        public Me() {
-        super("Pastel", "A human-being.");
+
+        public PastelRobots() {
+        super("PastelRobots", "Earth");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
         this.addExperience("1 year Java", "4 years Python", "2 years Javascript");
-   }
-     
-        @Override
+     }
+    
+	@Override
 	public void codingProgress() {
-		String[] learning = ["Experienced Server Plugins / PVP Clients / Java", "Discord Bots / Node.js", "Making fun little programs / Python"];
-		String[] tryingTo = ["Improve Pastel client". "Make good server plugins"];
+		String[] learning = {"Experienced Server Plugins / PVP Clients / Java", "Discord Bots / Node.js", "Making fun little programs / Python"};
+		String tryingTo = {"Improve and release Pastel Client", "Improve CubeMC with custom-made plugins!"};
 	}
-
+	
 } 
 
 
 public abstract class AboutMe {
 
-  @Getter private final String username;
-  @Getter private final String country;
-
-  private Set<String> languages = new HashSet<>();
-  private Set<String> experiences = new HashSet<>();
-
-  public GitHubProf(String username, String placeilive) {
-      this.name = username;
-      this.country = placeilive;
-  }
-
-  public void addCodeLanguage(String... language) {
-      this.languages.addAll(language);
-  }
+    @Getter private final String username;
+    @Getter private final String country;
   
-  public void addExperience(String... experience) {
-      this.experiences.addAll(experience);
+    private Set<String> languages = new HashSet<>();
+    private Set<String> experiences = new HashSet<>();
+  
+    public GitHubProf(String username, String placeilive) {
+        this.name = username;
+        this.country = placeilive;
+    }
+  
+    public void addCodeLanguage(String... language) {
+        this.languages.addAll(language);
+    }
+    
+    public void addExperience(String... experience) {
+        this.experiences.addAll(experience);
+    }
   }
-}
+
 ```
