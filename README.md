@@ -10,7 +10,7 @@
 * Email: pastelrobotthrowaway@gmail.com (Don't worry this is **NOT** a throwaway email, it was what it was intended to be in the first place until I decided to turn it into a way to reach me)
 
 ```java
-  public class PastelRobots extends AboutMe implements Youtuber, Coder {
+public class PastelRobots extends AboutMe implements Youtuber, Coder {
 
 	@Override
 	public String getIRLName() {
