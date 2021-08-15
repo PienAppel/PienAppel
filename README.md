@@ -35,7 +35,7 @@ public class PastelRobots extends AboutMe implements Youtuber, Coder {
         super("PastelRobots", "Earth");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
-        this.addExperience("1 year Java", "4 years Python", "2 years Javascript");
+        this.addExperience("3 Months Java", "4 years Python", "2 years Javascript");
      }
     
 	@Override
