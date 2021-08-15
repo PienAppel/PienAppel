@@ -1,8 +1,7 @@
 ### Hi there 👋 I'm PastelRobots!
 
 - 🔭 I’m currently working on my minecraft server CubeMC
-- 👯 I’m looking to collaborate on minecraft plugins and discord vots
-- 🤔 I’m looking for help with coding support.
+- 👯 I’m looking to collaborate on minecraft plugins and discord bots
 - 😄 Pronouns: He/Him
 - 📫 How to reach me: 
 ### My Contacts!
