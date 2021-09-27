@@ -1,12 +1,12 @@
 ### Hi there 👋 I'm PastelRobots!
 
-- 🔭 I’m currently working on my minecraft server CubeMC
+- 🔭 I’m currently working on my minecraft server LegendsMC
 - 👯 I’m looking to collaborate on minecraft plugins and discord bots
 - 😄 Pronouns: He/Him
 - 📫 How to reach me: 
 ### My Contacts!
 * My Discord: Pastel#2032
-* Email: pastelrobotthrowaway@gmail.com (Don't worry this is **NOT** a throwaway email, it was what it was intended to be in the first place until I decided to turn it into a way to reach me)
+* Email: pastelrobots@protonmail.com
 
 ```java
 public class PastelRobots extends AboutMe implements Youtuber, Coder {
@@ -35,7 +35,7 @@ public class PastelRobots extends AboutMe implements Youtuber, Coder {
         super("PastelRobots", "Earth");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
-        this.addExperience("5 Months Java", "4 years Python", "3 years Javascript");
+        this.addExperience("1 year Java", "4 years Python", "3 years Javascript");
      }
     
 	@Override
