@@ -41,7 +41,7 @@ public class PastelRobots extends AboutMe implements Youtuber, Coder {
 	@Override
 	public void codingProgress() {
 		String[] learning = {"Experienced Server Plugins / PVP Clients / Java", "Discord Bots / Node.js", "Making fun little programs / Python"};
-		String tryingTo = {"Improve and release Pastel Client", "Improve CubeMC with custom-made plugins!"};
+		String tryingTo = {"Improve Pastel Client", "Improve LegendsMC with custom-made plugins!"};
 	}
 	
 } 
