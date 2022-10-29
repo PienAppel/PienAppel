@@ -1,47 +1,28 @@
-### Hi there 👋 I'm PastelRobots!
+### Hi there 👋 I'm PienAppel!
 
 - 🔭 I’m currently working on my minecraft server LegendsMC
 - 👯 I’m looking to collaborate on minecraft plugins and discord bots
 - 😄 Pronouns: He/Him
 - 📫 How to reach me: 
 ### My Contacts!
-* My Discord: Pastel#2032
-* Email: pastelrobots@protonmail.com
+* My Discord: PienAppel#8473
+* Email: pienappel69@gmail.com
 
 ```java
-public class PastelRobots extends AboutMe implements Youtuber, Coder {
-
-	@Override
-	public String getIRLName() {
-		return "Aidan";
-	}
-	
-    @Override
-	public String getGamesIPlay() {
-		return "I like to play minecraft and fnf.";
-	}
+public class PienAppel extends AboutMe implements Java Developer, Python Developer, {
 
     @Override
-	public String getHobbies() {
-		return "I like to code\nI like to play soccer\nI like to make videos :)";
-	}   
-
-	@Override
-	public List<String> getNickNames() {
-		return Arrays.asList("Pastel", "Aidan", "Robots", "PastelRobots", "Literally anything else!");
-	}
-
-        public PastelRobots() {
-        super("PastelRobots", "Earth");
+        public PienAppel() {
+        super("PienAppel", "Earth");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
-        this.addExperience("1 year Java", "4 years Python", "3 years Javascript");
+        this.addExperience("2 years Java", "5 years on and off Python", "4 years on and off Javascript");
      }
     
 	@Override
 	public void codingProgress() {
-		String[] learning = {"Experienced Server Plugins / PVP Clients / Java", "Discord Bots / Node.js", "Making fun little programs / Python"};
-		String tryingTo = {"Improve Pastel Client", "Improve LegendsMC with custom-made plugins!"};
+		String[] learning = {"Experienced Server Plugins / Java", "Discord Bots / Node.js", "Making fun little twitter bots / Python"};
+		String tryingTo = {"Become a coding expert!"};
 	}
 	
 } 
