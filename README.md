@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm PienAppel!
 
-- 🔭 I’m currently working on my minecraft server LegendsMC
+- 🔭 I’m currently working on various minecraft servers such as Pigdom, DepositGens, etc.!
 - 👯 I’m looking to collaborate on minecraft plugins and discord bots
 - 😄 Pronouns: He/Him
 - 📫 How to reach me: 
