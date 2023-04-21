@@ -3,7 +3,7 @@
 - 😄 Pronouns: He/Him
 - 📫 How to reach me: 
 ### My Contacts!
-* My Discord: PienAppel#8473
+* My Discord: PienAppel#0999
 * Email: pienappel69@gmail.com
 
 ```java
@@ -14,7 +14,7 @@ public class PienAppel extends AboutMe implements Java Developer, Python Develop
         super("PienAppel", "Earth");
 
         this.addCodeLanguage("Java", "Python", "Javascript");
-        this.addExperience("2 years Java", "5 years on and off Python", "4 years on and off Javascript");
+        this.addExperience("3 years on and off Java", "6 years on and off Python", "5 years on and off Javascript");
      }
     
 	@Override
